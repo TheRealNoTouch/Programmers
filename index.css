@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#lol{
+    width:225vh;
+    height: calc(100vh - 100px);
+}
+html{
+    background-color: #221D23;
+    color: whitesmoke;
+}
+li{
+    border: #4B7F52 solid 2px;
+    margin: 30px;
+    padding: 13px;
+    width: 60px;
+    list-style: none;
+    font-family: sans-serif;
+    color: white;
+}
+li:active{
+    color:white;
+}
+li:hover{
+    background-color: #4B7F52;
+    color: black;
+    transition: ease-in-out 2s;
+    border-radius: 5px;
+    border: white dotted 2px;
+}
+li:visited{
+    color: white;
+}
+input[type=name] , input[type=password]  {
+    width: 350px;
+    border: #4B7F52 solid 2px;
+    background-color: #221D23;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-family: sans-serif;
+}
+input:hover{
+    background-color: white;
+    transition: ease-in-out 2s;
+    color:black;
+    border-radius: 10px;
+}
+#button1{
+    padding: 10px;
+    background-color:#221D23 ;
+    border:#4B7F52 solid 2px ;
+    color: white;
+    margin:10px;
+    margin-left:730PX;
+    width: 100px;
+}
+#button1:hover{
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+}
+label{
+    margin-left: 500px;
+    font-family: sans-serif;
+}
+#p1 {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 7em;
+}
+.p2{
+    font-size: 45px;
+    font-family: sans-serif;
+    color:#4B7F52 ;
+}
+#L{
+    height: 450px;
+    width: 400px;
+}
+table{
+    border: #4B7F52  solid 2px;
+    padding: 30px;
+    border-spacing: 25px;
+    width: 600px;
+    margin-left: 500px;
+    font-family: sans-serif;
+}
+#username , #email , #pass {
+    width: 350px;
+    border: #4B7F52 solid 2px;
+    background-color: #221D23;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-family: sans-serif;
+}
+#discribtion {
+        width: 350px;
+    border: #4B7F52 solid 2px;
+    background-color: #221D23;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.p3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+#region{
+        width: 375px;
+    border: #4B7F52 solid 2px;
+    background-color: #221D23;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    font-family: sans-serif;
+    margin-left:35px;
+}
